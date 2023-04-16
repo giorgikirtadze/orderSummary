@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+body {
+    background-color: #F2F2F2;
+}
+
+.main_container {
+    width: 450px;
+    height: 670px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    margin: auto;
+}
+
+.main_photo {
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.main_h1 {
+    color: rgba(31, 46, 85, 1);
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.main_p {
+    color: rgba(113, 127, 166, 1);
+    text-align: center;
+    margin: 17px 48px 0px 48px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.music_info {
+    height: 98px;
+    width: 354px;
+    display: flex;
+    align-items: center;
+    margin: 20px 48px 0px 48px;
+    background-color: rgba(247, 249, 255, 1);
+    border-radius: 11px;
+}
+
+
+
+
+.photo_border {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: rgba(223, 230, 251, 1);
+    margin-left: 24px;
+}
+
+
+.music_two_element {
+    margin-left: 20px;
+}
+
+.music_name {
+    width: 117px;
+    font-size: 16px;
+    color: rgba(31, 46, 85, 1);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.music_buy {
+    font-size: 16px;
+    color: rgba(113, 127, 166, 1);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.music_change {
+    color: rgba(56, 42, 225, 1);
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 68px;
+    cursor: pointer;
+}
+
+.button {
+    width: 354px;
+    border: none;
+    height: 50px;
+    border-radius: 11px;
+    background-color: rgba(56, 42, 225, 1);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    align-items: center;
+    margin: 32px 48px 0px 48px;
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    cursor: pointer;
+}
+
+
+.Cancel {
+    color: rgba(113, 127, 166, 1);
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Red Hat Display', sans-serif;
+}
